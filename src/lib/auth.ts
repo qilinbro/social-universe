@@ -258,9 +258,17 @@ export async function ingestAgentMemory(
 
 // 生成 OAuth 授权 URL
 export function getAuthUrl() {
+  // 生产环境使用生产回调地址，开发环境使用本地回调地址
+  const redirectUri = process.env.NODE_ENV === 'production'
+    ? (process.env.SECONDME_REDIRECT_URI || process.env.SECONDME_REDIRECT_URI_PROD)
+    : process.env.SECONDME_REDIRECT_URI;
+
+  console.log('OAuth redirect_uri:', redirectUri);
+  console.log('OAuth client_id:', process.env.SECONDME_CLIENT_ID);
+
   const params = new URLSearchParams({
     client_id: process.env.SECONDME_CLIENT_ID || '',
-    redirect_uri: process.env.SECONDME_REDIRECT_URI || '',
+    redirect_uri: redirectUri || '',
     response_type: 'code',
   });
 
