@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv /tmp/.secondme_backup /d/social-universe/.secondme)",
+      "Bash(mv /tmp/.claude_backup /d/social-universe/.claude)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(npm search:*)",
+      "Bash(npm view:*)",
+      "Bash(node:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx skills:*)"
+    ]
+  }
+}

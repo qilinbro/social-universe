@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx:*)",
+      "Bash(mv /d/social-universe/.secondme /tmp/.secondme_backup)",
+      "Bash(mv /d/social-universe/.claude /tmp/.claude_backup)"
+    ]
+  }
+}

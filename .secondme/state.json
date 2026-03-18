@@ -1,0 +1,28 @@
+{
+  "api": {
+    "provider": "secondme",
+    "baseUrl": "https://api.mindverse.com/gate/lab",
+    "oauthUrl": "https://go.second.me/oauth/",
+    "clientId": "5d1dce90-e826-4203-a279-5929d889f70d",
+    "clientSecret": "034b067accbf54f699bb56529007fa86e488fced931e057a0b664a64b5f1cccc",
+    "redirectUri": "http://localhost:3000/api/auth/callback/secondme",
+    "scopes": ["user.info"]
+  },
+  "modules": {
+    "auth": {
+      "enabled": true,
+      "description": "SecondMe OAuth 登录"
+    },
+    "profile": {
+      "enabled": true,
+      "description": "读取 SecondMe 个人信息"
+    }
+  },
+  "database": {
+    "type": "mysql",
+    "connectionString": "mysql://kirinbao:xql511025@127.0.0.1:3306/mydb"
+  },
+  "stage": "ready",
+  "createdAt": "2026-03-17T12:40:00.000Z",
+  "appName": "social-universe"
+}
