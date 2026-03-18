@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "516bd2154eb843a8240e43d5b285229129853114ad7075a5e141e1c08e408c84"
+    },
+    "secondme": {
+      "source": "Mindverse/Second-Me-Skills",
+      "sourceType": "github",
+      "computedHash": "3f9b8dfb07233987f77b8eaae5e2d339821723cd7e7f955e59010ca19291ed5a"
+    },
+    "secondme-init": {
+      "source": "Mindverse/Second-Me-Skills",
+      "sourceType": "github",
+      "computedHash": "0709d3312ff93dabe4cf86839327632c5a0c3c061d3dd0139d10aad001701d3c"
+    },
+    "secondme-nextjs": {
+      "source": "Mindverse/Second-Me-Skills",
+      "sourceType": "github",
+      "computedHash": "d68ce5e194722a4dfe5b963f9abd40c40999979cbd022865c0f10369ca8dad15"
+    },
+    "secondme-prd": {
+      "source": "Mindverse/Second-Me-Skills",
+      "sourceType": "github",
+      "computedHash": "cfa835ecb90bf001b7e534de593653946e53a44b25f45eccd6ee7b25afd8c460"
+    },
+    "secondme-reference": {
+      "source": "Mindverse/Second-Me-Skills",
+      "sourceType": "github",
+      "computedHash": "f546970c7e488db8c8997a6b72166e6967c92303d9f088bd806930f6da797d6b"
+    }
+  }
+}
