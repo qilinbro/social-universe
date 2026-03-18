@@ -58,8 +58,8 @@ SECONDME_API_BASE_URL=https://api.mindverse.com/gate/lab
 SECONDME_OAUTH_URL=https://go.second.me/oauth/
 SECONDME_CLIENT_ID=your_client_id
 SECONDME_CLIENT_SECRET=your_client_secret
-SECONDME_REDIRECT_URI=https://your-app.vercel.app/api/auth/callback
-NEXT_PUBLIC_APP_URL=https://your-app.vercel.app
+SECONDME_REDIRECT_URI=https://www.socialuniverse.kirinbao.engineer/api/auth/callback
+NEXT_PUBLIC_APP_URL=https://www.socialuniverse.kirinbao.engineer
 ```
 
 ### 5. 运行数据库迁移
