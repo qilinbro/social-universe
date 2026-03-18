@@ -124,6 +124,20 @@ src/
 - 检查 `NEXT_PUBLIC_APP_URL` 是否正确
 
 ### Prisma 错误
+
+**PrismaClientInitializationError**: 确保 `package.json` 中的 build 脚本包含 `prisma generate`:
+
+```json
+"build": "prisma generate && next build"
+```
+
+如果问题仍然存在，在 Vercel Dashboard 中:
+1. 进入 Project Settings -> General
+2. 确认 Build Command 是 `npm run build` 或 `pnpm build`
+3. 确保 Install Command 是 `npm install` 或 `pnpm install`
+
+或者使用 Prisma CLI 安装脚本:
+
 ```bash
 # 重新生成 Prisma Client
 npx prisma generate
